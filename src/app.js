@@ -56,7 +56,6 @@ const formatSOItem = (item) => {
 const getQuery = (searchString) => {
     searchString = sanitizeString(searchString);
     return new Promise((result, error) => {
-        console.log(`SEARCHING ${searchString}`);
         request
             .get(`https://api.stackexchange.com/2.2/search/advanced?order=asc&sort=activity&title=${searchString}&site=stackoverflow&pagesize=3`)
             .query({done:true})

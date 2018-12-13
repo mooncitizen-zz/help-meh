@@ -1,6 +1,6 @@
 {
   "name": "help-meh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Paul Gardiner <franticstone@gmail.com>",
   "description": "This is a simple npm package to search for answers to a tech question.",
   "main": "index.js",
