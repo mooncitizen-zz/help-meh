@@ -1,0 +1,17 @@
+{
+  "name": "help-me",
+  "version": "1.0.0",
+  "author": "Paul Gardiner <franticstone@gmail.com>",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "help-meh": "./src/app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cli-spinner": "^0.2.8",
+    "colors": "^1.3.3",
+    "superagent": "^4.0.0"
+  }
+}
